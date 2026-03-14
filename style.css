@@ -65,9 +65,9 @@ a:hover{
 }
 
 @media (max-width:768px){
-.carte-principale{
-    max-height: 110%;
-    max-width: 110%;
+body{
+    max-height: 30%;
+    max-width: 30%;
     padding: 20px;
 }
 }
