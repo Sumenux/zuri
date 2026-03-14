@@ -65,8 +65,8 @@ a:hover{
 
 @media (max-width:768px){
 body{
-    max-height: 10%;
-    max-width: 10%;
+    max-height: 80%;
+    max-width: 80%;
     padding: 20px;
 }
 }
