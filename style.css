@@ -67,6 +67,6 @@ a:hover{
 body{
     max-height: 95%;
     max-width: 95%;
-    padding: 20px;
+    margin: auto;
 }
 }
