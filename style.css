@@ -76,9 +76,11 @@ body{
 }
 
 .reseaux{
-    max-height: 30%;
-    max-width: 30%;
     padding: 20px;
 }
 
+a{
+    max-height: 30%;
+    max-width: 30%;
+}
 }
