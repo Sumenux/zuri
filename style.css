@@ -67,10 +67,16 @@ a:hover{
 body{
     padding: 250px 0 250px 0;
 }
+
 .carte-principale{
     max-height: 95%;
     max-width: 95%;
     margin: auto;
     padding: 20px;
+
+.reseaux{
+    max-height: 95%;
+    max-width: 95%;
+}
 }
 }
