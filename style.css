@@ -71,13 +71,12 @@ body{
 .carte-principale{
     max-height: 80%;
     max-width: 80%;
-    margin: auto;
-    padding: 20px;
+}
 
 .reseaux{
     max-height: 30%;
     max-width: 30%;
-}
-}
+    padding: 20px;
 }
 
+}
