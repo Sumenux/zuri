@@ -75,12 +75,9 @@ body{
     padding: 20px;
 }
 
-.reseaux{
-    padding: 20px;
-}
-
 a{
     max-height: 100%;
     max-width: 100%;
+    margin: auto;
 }
 }
