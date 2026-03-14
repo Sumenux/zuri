@@ -69,14 +69,14 @@ body{
 }
 
 .carte-principale{
-    max-height: 85%;
-    max-width: 85%;
+    max-height: 80%;
+    max-width: 80%;
     margin: auto;
     padding: 20px;
 
 .reseaux{
-    max-height: 90%;
-    max-width: 90%;
+    max-height: 80%;
+    max-width: 80%;
 }
 }
 }
