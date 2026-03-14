@@ -1,0 +1,72 @@
+html{
+    padding: 50px 0 50px 0;
+    font-family: fantasy;
+    background-color: #876e67;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.carte-principale{
+    height: 780px;
+    width: 580px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: #c59e93be;
+}
+
+.pdp-et-pseudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+.photo-de-profil{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 45px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 460px;
+    border-radius: 15px;
+    padding-top: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: white;
+    color: gray;
+}
+
+a:hover{
+    background: rgba(255, 255, 255, 0.507);
+    color: gray;
+    transform:scale(1.05);
+}
+
+@media (max-width:768px){
+    .carte-principale{
+
+        width: 100%;
+}
+}
