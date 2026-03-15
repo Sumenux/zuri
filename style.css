@@ -21,6 +21,8 @@ body{
     align-items: center;
     flex-direction: column;
     margin-top: 80px;
+    font-weight: bolder;
+    font-size: larger;
     color: white;
 }
 
