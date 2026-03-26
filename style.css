@@ -64,6 +64,10 @@ a:hover{
     transform:scale(1.05);
 }
 
+.information{
+    display:flex;
+    align-item: center;
+
 @media (max-width:768px){
 body{
     padding: auto;
