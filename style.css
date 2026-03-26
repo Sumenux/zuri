@@ -66,7 +66,8 @@ a:hover{
 
 .information{
     display:flex;
-    justify-content: center;
+    align-text: center;
+}
 
 @media (max-width:768px){
 body{
