@@ -70,7 +70,7 @@ a:hover{
     max-height: 80%;
     max-width: 80%;
     margin: auto;
-    padding: 50px;
+    padding: 25px;
 }
 
 a{
@@ -79,7 +79,4 @@ a{
     margin: auto;
 }
 
-.reseaux{
-    margin: 0 40px 0 20px
-}
 }
