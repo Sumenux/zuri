@@ -68,6 +68,8 @@ a:hover{
 
 html{
     padding: 0;
+    color: #c59e93be;
+}
 
 .carte-principale{
     max-height: 100%;
