@@ -9,7 +9,7 @@ body{
 }
 
 .carte-principale{
-    height: 895px;
+    height: auto;
     width: 580px;
     padding-bottom: 10px;
     border-radius: 30px;
