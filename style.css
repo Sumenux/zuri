@@ -14,6 +14,9 @@ body{
     padding-bottom: 10px;
     border-radius: 30px;
     background-color: #c59e93be;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    animation: apparition 0.8s ease;
 }
 
 .pdp-et-pseudo{
@@ -31,7 +34,10 @@ body{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
+
 
 .reseaux{
     display: flex;
@@ -69,6 +75,17 @@ body{
     background: rgba(255, 255, 255, 0.507);
     color: gray;
     transform:scale(1.05);
+}
+
+@keyframes apparition{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
 
 @media (max-width:768px){
